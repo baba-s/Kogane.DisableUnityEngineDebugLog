@@ -1,0 +1,15 @@
+{
+    "name": "UniDebugLogDisabler",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "DISABLE_DEBUG_LOG"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
