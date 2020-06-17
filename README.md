@@ -4,7 +4,7 @@ Debug.Log を無効化するクラス
 
 ## 使い方
 
-![2020-06-17_210244](https://user-images.githubusercontent.com/6134875/84895861-f1d8ce00-b0dd-11ea-9f3b-f65f38f9ca88.png)
+![2020-06-17_210415](https://user-images.githubusercontent.com/6134875/84896011-25b3f380-b0de-11ea-9c62-f6cf710d3b13.png)
 
 Scripting Define Symbols に `DISABLE_DEBUG_LOG` を追加することで  
 Debug.Log を無効化できます  
