@@ -1,5 +1,5 @@
 {
-    "name": "UniDebugLogDisabler",
+    "name": "Kogane.DisableUnityEngineDebugLog",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -8,7 +8,7 @@
     "precompiledReferences": [],
     "autoReferenced": true,
     "defineConstraints": [
-        "DISABLE_DEBUG_LOG"
+        "KOGANE_DISABLE_DEBUG_LOG"
     ],
     "versionDefines": [],
     "noEngineReferences": false
