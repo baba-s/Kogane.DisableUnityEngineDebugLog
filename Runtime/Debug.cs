@@ -1,13 +1,16 @@
 ﻿#if KOGANE_DISABLE_DEBUG_LOG
 
 using System.Diagnostics;
+using Kogane.Internal;
 using UnityEngine;
+
+// ReSharper disable InconsistentNaming
 
 public class Debug
 {
     private const string CONDITION_STRING = "zUp55nZJ3vdL"; // 絶対に定義されないであろうシンボル
 
-    public static ILogger unityLogger => UnityEngine.Debug.unityLogger;
+    public static ILogger unityLogger => new DisabledLogger();
 
     [Conditional( CONDITION_STRING )] public static void Assert( bool condition, string message, Object context )
     {
